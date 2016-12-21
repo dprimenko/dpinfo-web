@@ -1,0 +1,174 @@
+<html lang="es">
+<head>
+    <title>DPInfo | Diseño Web, Grafico, Aplicaciones, España, Málaga</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="DPInfo | Diseño Web, Grafico, Aplicaciones, España . Un grupo de freelancers especializado en todos los aspectos del software (diseño web, programación multiplataforma (Aplicaciones Android, IOS, Windows Phone, Windows), diseño gráfico, SEO, administración de sistemas...)."/>
+    <meta content="Diseño web, Diseño Gráfico, Programación multiplataforma(Aplicaciones), Android, Windows Phone, IOS.">
+    <meta name="keywords" content="informatica, diseño, diseno, grafico, web, seo, fuengirola, torremolinos, malaga, españa, informatica malaga, informatica fuengirola, diseño web, diseño grafico, aplicaciones, android, ios, windows, windows phone"/>
+    <meta content="2" name="Revisit-After">
+    <meta content="España" name="Country">
+    <meta name="robots" content="Index, Follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="geo.region" content="ES-AL" />
+    <meta name="geo.placename" content="Torremolinos" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/dp.css"/>
+    <link rel="stylesheet" type="text/css" href="css/devices.css"/>
+    <link rel="stylesheet" type="text/css" href="css/social.css"/>
+    <link rel="icon" type="image/png" href="./img/logo2.png"/>
+</head>
+<body>    
+	<div class="page-wrapper">
+        <div class="mobile-nav-wrap" role="navigation">
+            <ul class="mobile-header-nav">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+	        <!-- Barra de Navegacion -->
+	    <div class="cabecera-sec">
+	    	<nav class="navbar">
+	    		<div class="container">
+	    			<div class="row">
+		    			<div class="col-xs-12 col-sm-4 col-md-6">
+                            <a href="./index.html">
+    		    				<div class="logo">    					
+    		    				</div>
+                            </a>
+                            <div class="movil  js-toggle-menu hamburguer-menu">
+                                <div class="menu-icon">
+                                    <div class="line-1 no-animation"></div>
+                                    <div class="line-2 no-animation"></div>
+                                    <div class="line-3 no-animation"></div>
+                                </div>
+                            </div>
+		    			</div>
+		    			<div id="bn-right" class="hidden-xs col-sm-8 col-md-6">
+		    				<ul id="list-nav" class="nav navbar-nav navbar-main">
+		    					<li>
+		    						<a href="./index.html" class="btn-nav">Inicio</a>
+		    					</li>
+		    					<li>
+		    						<a href="./servicios.html" class="btn-nav">Servicios</a>
+		    					</li>
+		    					<li class="port">
+                                    <a href="#" class="btn-nav"><span>Portfolio</span></a>
+                                </li>
+		    					<li>
+		    						<a href="./contacto.html" class="btn-nav">Contacto</a>
+		    					</li>
+		    				</ul>
+		    			</div>
+		    		</div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="section-title-cont">
+                                <h1 class="dwtitle-upper">Servicios</h1>
+                                
+                            </div>
+                        </div>
+                    </div>	    		
+	    		</div>   
+	    	</nav>
+	    </div>
+	    <section ng-app="servApp">
+        	<div class="container">
+                <div ng-controller="ServController as services" class="row">
+                    <div ng-repeat="serv in services.srvs" class="col-sm-4 clearfix">
+                        <div class="cont-service">
+                            <a class="service" href="#">
+                                <div class="i-service"><img src="{{serv.image.full}}" class="imgService"/></div>
+                                <div class="desc-service">
+                                    <h2 class="title-service">{{serv.name}}</h2>
+                                    <p>{{serv.description}}</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>                     
+                </div>
+                <div class="actions">
+                    <a class="btn btn-lg btn-primary btn-outline" href="./contacto.html">Pídanos presupuesto!</a>
+                </div>
+                <div class="row">
+                    <div id="separador2" class="hidden-xs col-sm-12 col-md-12"></div>
+                </div>
+            </div>
+        </section>
+	<footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div id="footer" class="col-sm-12 col-md-12">  
+                        <div class="wrapper">  
+                            <div class="socialLinks">
+                                <a class="facebook" href="https://www.facebook.com/dpinfo.es/" target="_blank">
+                                    <svg viewBox="0 0 30.162 64" class="socialIcon">
+                                        <path fill="#FFFFFF" d="M30.113,0.001c0,0-6.156,0-10.239,0c-6.082,0-12.843,2.549-12.843,11.351c0.032,3.065,0,6.001,0,9.306H0
+                                        v11.173h7.251V64h13.321V31.616h8.794l0.796-10.991h-9.821c0,0,0.026-4.893,0-6.31c0-3.476,3.628-3.279,3.84-3.279
+                                        c1.73,0,5.081,0.005,5.942,0V0L30.113,0.001L30.113,0.001z"/>
+                                    </svg>
+                                </a>
+                                <a class="googleplus">
+                                    <svg viewBox="0 0 63.611 64" class="socialIcon">
+                                        <path fill="#FFFFFF" d="M34.7,37.618c-1.362-0.586-2.713-0.908-4.061-0.967c-0.937-0.029-2.524-0.117-4.762-0.262
+                                        c-2.241-0.146-4.001-0.235-5.289-0.262c-1.199-0.029-2.362-0.073-3.489-0.135c-1.126-0.057-2.115-0.203-2.962-0.438
+                                        c-0.879-0.206-1.625-0.593-2.24-1.166c-0.615-0.567-0.921-1.396-0.921-2.48c0-1.053,0.365-1.888,1.097-2.499
+                                        c0.732-0.612,1.432-1.039,2.105-1.273h5.311c4.096,0,7.688-1.317,10.775-3.95c3.087-2.634,4.63-5.852,4.63-9.656
+                                        c0-1.462-0.262-2.955-0.789-4.478c-0.525-1.521-1.331-2.911-2.413-4.171V5.619h10.183V1.405h-15.1
+                                        c-1.346-0.409-2.671-0.746-3.973-1.009C21.5,0.135,20.19,0,18.875,0c-4.77,0-8.684,1.317-11.74,3.952
+                                        C4.077,6.586,2.546,9.951,2.546,14.047c0,2.722,0.774,5.115,2.327,7.176c1.55,2.063,3.729,3.753,6.54,5.07v0.658
+                                        c-2.223,0.936-3.883,2.058-4.983,3.357c-1.097,1.303-1.645,2.728-1.645,4.28c0,1.229,0.235,2.259,0.703,3.095
+                                        c0.467,0.836,1.082,1.56,1.843,2.174c0.674,0.526,1.477,0.987,2.414,1.382c0.936,0.394,1.844,0.726,2.721,0.987v0.613
+                                        c-3.629,0.149-6.613,1.083-8.954,2.809C1.171,47.375,0,49.73,0,52.718c0,3.688,1.626,6.485,4.873,8.405
+                                        C8.119,63.042,13.021,64,19.575,64c4.008,0,7.375-0.383,10.098-1.144c2.722-0.762,5.061-1.829,7.022-3.206
+                                        c1.844-1.346,3.217-2.932,4.128-4.762c0.905-1.829,1.361-3.78,1.361-5.858c0-2.079-0.338-3.82-1.009-5.225
+                                        c-0.673-1.404-1.597-2.663-2.767-3.776C37.297,39.008,36.061,38.203,34.7,37.618z M24.516,22.058
+                                        c-1.361,2.034-3.301,3.051-5.815,3.051c-2.253,0-4.089-1.023-5.509-3.073c-1.42-2.047-2.127-4.695-2.127-7.945
+                                        c0-1.432,0.125-2.83,0.372-4.191s0.664-2.524,1.251-3.489c0.615-1.053,1.413-1.865,2.392-2.436
+                                        c0.979-0.571,2.157-0.857,3.533-0.857c2.514,0,4.469,1.019,5.86,3.051c1.387,2.034,2.085,4.762,2.085,8.185
+                                        C26.558,17.455,25.877,20.023,24.516,22.058z M31.276,58.182c-2.473,1.655-5.861,2.48-10.161,2.48
+                                        c-2.487,0-4.593-0.242-6.322-0.722c-1.726-0.482-3.102-1.104-4.125-1.869c-1.082-0.788-1.844-1.652-2.282-2.59
+                                        c-0.438-0.936-0.658-1.915-0.658-2.94c0-2.282,0.666-4.145,1.998-5.595c1.33-1.449,3.577-2.482,6.737-3.098
+                                        c3.365,0,6.322,0.074,8.866,0.221c2.547,0.149,4.229,0.279,5.049,0.395c1.551,0.379,2.706,1.097,3.47,2.152
+                                        c0.762,1.055,1.141,2.396,1.141,4.036C34.983,54.018,33.75,56.53,31.276,58.182z"/>
+                                        <path fill="#FFFFFF" d="M51.718,14.318V22.9h3.35v-8.582h8.543v-3.293h-8.543V2.424h-3.35v8.602h-8.543v3.293H51.718L51.718,14.318
+                                        z"/>
+                                    </svg>
+                                </a>
+                                <a class="linkedin" href="https://www.linkedin.com/in/dpinfo-a52332120" target="_blank">
+                                    <svg viewBox="0 0 64 62.888" class="socialIcon">
+                                        <path fill="#FFFFFF" d="M6.902,0c-4.229,0-6.988,2.85-6.9,6.646c-0.088,3.619,2.677,6.553,6.815,6.553
+                                        c4.313,0,7.073-2.934,7.073-6.553C13.807,2.85,11.13,0,6.902,0z M0.345,62.888h13.114V18.074H0.345V62.888z M48.906,18.705
+                                        c-4.189,0-8.471-0.866-13.029,6.204h-0.256l-0.23-6.831H23.782c0.174,3.708,0.196,9.245,0.196,14.507v30.303h13.113V36.992
+                                        c0-1.215,0.17-2.42,0.51-3.285c0.861-2.414,3.018-4.917,6.645-4.917c4.744,0,6.646,3.708,6.646,9.139v24.959H64V36.291
+                                        C64,23.869,57.531,18.705,48.906,18.705z"/>
+                                    </svg>
+                                </a>                           
+                            <a class="twitter">
+                                <svg viewBox="0 0 64 52.013" class="socialIcon">
+                                        <path fill="#FFFFFF" d="M64,6.154c-2.354,1.044-4.885,1.749-7.537,2.069c2.709-1.626,4.789-4.2,5.77-7.266
+                                        c-2.531,1.505-5.346,2.598-8.344,3.187C51.5,1.592,48.09,0,44.309,0c-7.248,0-13.128,5.878-13.128,13.131
+                                        c0,1.025,0.117,2.028,0.339,2.992C20.608,15.575,10.936,10.348,4.458,2.404c-1.13,1.939-1.776,4.196-1.776,6.601
+                                        c0,4.557,2.318,8.574,5.84,10.927c-2.151-0.065-4.174-0.656-5.947-1.641c0,0.055,0,0.11,0,0.166c0,6.363,4.525,11.667,10.532,12.875
+                                        c-1.105,0.301-2.263,0.455-3.461,0.455c-0.847,0-1.668-0.074-2.472-0.227c1.671,5.215,6.521,9.008,12.265,9.117
+                                        c-4.494,3.523-10.156,5.615-16.304,5.615c-1.06,0-2.106-0.061-3.135-0.184c5.81,3.73,12.712,5.904,20.125,5.904
+                                        c24.145,0,37.359-20.004,37.359-37.355c0-0.57-0.012-1.137-0.043-1.7C60.008,11.099,62.238,8.786,64,6.154z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="ssl-sign">
+                                <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=6bMw9CCpIh1jmCcuH69xeP61sOYgAl6iqtEIeU9ggj44e1grX3emy2PHESD0"></script></span>
+                            </div> 
+                    </div>             
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <script type="text/javascript" src="./js/angular.min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/menu.js" /></script>
+    <script type="text/javascript" src="./js/desplegable.js" /></script>
+    <script type="text/javascript" src="./js/tl.js" /></script>
+ </body>

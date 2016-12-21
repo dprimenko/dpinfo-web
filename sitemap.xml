@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+            
+<url>
+  <loc>http://www.dpinfo.es/</loc>
+  <lastmod>2016-05-06T21:56:35+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.dpinfo.es/index.html</loc>
+  <lastmod>2016-05-06T21:56:35+00:00</lastmod>
+  <image:image>
+       <image:loc>http://dpinfo.es/img/wd.jpg</image:loc>
+       <image:caption>Diseño web</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://dpinfo.es/img/app.png</image:loc>
+       <image:caption>Aplicaciones moviles</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://dpinfo.es/img/graph.png</image:loc>
+       <image:caption>Diseño web</image:caption>
+    </image:image>
+</url>
+<url>
+  <loc>http://www.dpinfo.es/servicios.html</loc>
+  <lastmod>2016-05-06T19:28:19+00:00</lastmod>
+  <image:image>
+       <image:loc>http://dpinfo.es/img/wd.jpg</image:loc>
+       <image:caption>Diseño web</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://dpinfo.es/img/app.png</image:loc>
+       <image:caption>Aplicaciones moviles</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://dpinfo.es/img/graph.png</image:loc>
+       <image:caption>Diseño web</image:caption>
+    </image:image>
+</url>
+<url>
+  <loc>http://www.dpinfo.es/contacto.html</loc>
+  <lastmod>2016-05-06T19:28:20+00:00</lastmod>
+</url>
+</urlset>
